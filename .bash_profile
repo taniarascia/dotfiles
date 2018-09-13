@@ -4,10 +4,12 @@ alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 # Add colors to Terminal
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+
 # Get Git branch
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
+
 # Format to user@host:/path/to/directory (branch-name)
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\$(parse_git_branch)\[\033[m\]\$ "
 
