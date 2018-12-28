@@ -1,3 +1,6 @@
+# View hidden files
+alias ll='ls -al'
+
 # Update and clean homebrow in one command
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 
