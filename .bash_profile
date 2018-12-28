@@ -14,7 +14,7 @@ parse_git_branch() {
 }
 
 # Format to user@host:/path/to/directory (branch-name)
-export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\$(parse_git_branch)\[\033[m\]\$ "
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\$(parse_git_branch)\[\033[m\]\$\n==> "
 
 # Use Git completion
 export NVM_DIR="$HOME/.nvm"
