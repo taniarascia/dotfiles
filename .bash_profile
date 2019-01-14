@@ -2,7 +2,7 @@
 alias ll='ls -al'
 
 # Update and clean homebrow in one command
-alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
 
 # Add colors to Terminal
 export CLICOLOR=1
