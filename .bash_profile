@@ -1,5 +1,14 @@
-# View hidden files
+# Update and clean homebrow in one command
+alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
+
 alias ll='ls -al'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias md='mkdir -p'
+alias chrome='open -a "Google Chrome"'
 
 # Update and clean homebrow in one command
 alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
