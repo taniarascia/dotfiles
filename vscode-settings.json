@@ -23,7 +23,7 @@
   "editor.tabSize": 2,
   "editor.acceptSuggestionOnCommitCharacter": false,
 
-  "workbench.colorTheme": "New Moon"
+  "workbench.colorTheme": "New Moon",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": true,
   "workbench.commandPalette.history": 20,
@@ -106,5 +106,5 @@
   "vetur.format.defaultFormatter.html": "prettier",
   "vetur.format.defaultFormatter.scss": "prettier",
   
-  "typescript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false
 }
