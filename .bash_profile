@@ -27,6 +27,8 @@ alias chrome='open -a "Google Chrome"'
 # Add colors to Terminal
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+export GREP_OPTIONS='--color=always'
+export GREP_COLOR='1;32;40' # green
 
 # Get Git branch
 parse_git_branch() {
