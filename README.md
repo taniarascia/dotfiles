@@ -1,3 +1,3 @@
 # Dotfiles
 
-Dotfile configuration for web development in 2018.
+Tania's dotfile configuration for web development.
