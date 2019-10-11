@@ -23,6 +23,7 @@ alias yi='yarn install'
 # Miscellaneous
 alias md='mkdir -p'
 alias chrome='open -a "Google Chrome"'
+alias fuckjs="rm -rf node_modules package-lock.json && npm i && npm start"
 
 # Add colors to Terminal
 export CLICOLOR=1
