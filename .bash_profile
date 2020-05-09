@@ -1,4 +1,4 @@
-# Update and clean homebrow in one command
+# Update and clean homebrew in one command
 alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
 
 # File navigation
