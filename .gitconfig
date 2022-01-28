@@ -1,20 +1,20 @@
 [user]
-  name   = Tania Rascia
-  email  = taniarascia@gmail.com
+  name   = Firstname Lastname
+  email  = you@example.com
 [github]
-  user   = taniarascia
+  user   = username
 [alias]
   a      = add
   ca     = commit -a
   cam    = commit -am
   cm     = commit -m
   s      = status
+  p      = push
   pom    = push origin master
-  pog    = push origin gh-pages
   puom   = pull origin master
-  puog   = pull origin gh-pages
   cob    = checkout -b
   co     = checkout
+  fp     = fetch --prune --all
   l      = log --oneline --decorate --graph
   lall   = log --oneline --decorate --graph --all
   ls     = log --oneline --decorate --graph --stat
